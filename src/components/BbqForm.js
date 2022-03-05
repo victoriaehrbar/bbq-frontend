@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { createPlayer } from "../redux/actions/bbqActions";
+import { createBbq } from "../redux/actions/bbqActions";
 import { connect } from "react-redux";
 
 class BbqForm extends Component {

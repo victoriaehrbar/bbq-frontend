@@ -10,12 +10,13 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div className="App">
+      Test
       <Router>
         <Nav />
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/bbqs" component={BbqIndex} />
-          <Route path="/bbqs/new" component={BbqForm} />
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/bbqs" element={<BbqIndex/>} />
+          <Route path="/bbqs/new" element={<BbqForm/>} />
         </Routes>
       </Router>
     </div>

@@ -42,7 +42,7 @@ class BbqForm extends Component {
             onChange={(e) => this.setState({ review: e.target.value })}
             value={this.state.review}
           />
-          <input type="submit" value="Submit New BBQ Restaurant" />
+          <input type="submit" value="Submit a new BBQ Restaurant" />
         </form>
       </div>
     );

@@ -14,8 +14,8 @@ class BbqForm extends Component {
     this.props.createBbq(this.state);
     this.setState({
       name: "",
-      team: "",
-      number: "",
+      rating: "",
+      review: "",
     });
     this.props.history.push("/bbqs");
   };

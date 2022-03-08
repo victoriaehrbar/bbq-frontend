@@ -32,14 +32,14 @@ class BbqForm extends Component {
           />
           Rating:{" "}
           <input
-            onChange={(e) => this.setState({ team: e.target.value })}
+            onChange={(e) => this.setState({ rating: e.target.value })}
             type="number"
             value={this.state.rating}
           />
           Review:{" "}
           <input
             type="text"
-            onChange={(e) => this.setState({ number: e.target.value })}
+            onChange={(e) => this.setState({ review: e.target.value })}
             value={this.state.review}
           />
           <input type="submit" value="Submit New BBQ Restaurant" />

@@ -33,7 +33,7 @@ class BbqForm extends Component {
           Rating:{" "}
           <input
             onChange={(e) => this.setState({ team: e.target.value })}
-            type="integer"
+            type="number"
             value={this.state.rating}
           />
           Review:{" "}

@@ -21,12 +21,11 @@ import { Provider } from "react-redux";
 
 // const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-//let store = createStore(bbqReducer, applyMiddleware(thunk))
+// let store = createStore(bbqReducer, composeEnhancers(applyMiddleware(thunk)))
 
 
 ReactDOM.render(
     <Provider store={store}>
-      test
         <App />
       
     </Provider>,

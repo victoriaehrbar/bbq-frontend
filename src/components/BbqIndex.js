@@ -10,7 +10,7 @@ class BbqIndex extends React.Component {
   render() {
     return (
       <div>
-        <h1>BBQ Restaurants</h1>
+        <h1>All BBQ Restaurants</h1>
         {this.props.bbqs.map((bbq) => (
           <BbqListItem bbq={bbq} />
         ))}
